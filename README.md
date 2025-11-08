@@ -50,29 +50,34 @@ This project is built using [Vite](https://vitejs.dev/) for a fast development e
 
 ### Local Development
 1.  **Clone the repository** and navigate to the project directory.
-2.  **Install dependencies:**
+2.  **Install dependencies** (only required the first time or when dependencies change):
     ```bash
     npm install
     ```
 3.  **Start the development server:**
     ```bash
-    npm run dev
+    npm run dev -- --host
     ```
-4.  Open your browser and navigate to the local address provided by Vite (e.g., `http://localhost:5173`). The server supports Hot Module Replacement (HMR) for a great development experience.
+    Passing `--host` makes the dev server reachable from other devices on your network. By default Vite serves at `http://localhost:5173/` with hot module replacement enabled.
 
 ### Building for Production
-1.  **Run the build command:**
+1.  **Create an optimized production build:**
     ```bash
     npm run build
     ```
-2.  This command will compile the application and output the static files into a `publish` directory in the project root.
+    This command generates static assets in the `publish/` directory.
+2.  **Preview the production build locally (optional but recommended):**
+    ```bash
+    npm run preview -- --host
+    ```
+    This runs the compiled assets using Vite's preview server so you can confirm everything works before deploying.
 
 ### Deployment
-You can deploy the contents of the `publish` directory to any static web hosting service.
+You can deploy the contents of the `publish/` directory to any static web hosting service (e.g., GitHub Pages, Netlify, Vercel, AWS S3).
 
-1.  After running `npm run build`, take the contents of the generated `publish` folder.
-2.  Upload these files to your hosting provider (e.g., GitHub Pages, Vercel, Netlify, AWS S3).
-3.  That's it! Your game will be live.
+1.  Run `npm run build` to generate the latest assets.
+2.  Upload the files inside `publish/` to your hosting provider following their instructions.
+3.  In most cases you only need to serve the generated `index.html`, JavaScript, and CSS files—no additional server-side logic is required.
 
 
 ## Author
