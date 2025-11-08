@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cosmic Pong</title>
-    <link rel="stylesheet" href="/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
       body {
         margin: 0;
@@ -18,6 +18,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+    </style>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+        .animate-fadeIn {
+          animation: fadeIn 1s ease-in-out;
+        }
       }
     </style>
 <script type="importmap">
