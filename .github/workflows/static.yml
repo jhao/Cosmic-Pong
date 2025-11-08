@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: publish        # 与 Vite outDir 保持一致
 
@@ -41,4 +41,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deploy
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
