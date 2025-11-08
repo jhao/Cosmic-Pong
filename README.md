@@ -7,16 +7,13 @@ A futuristic table tennis game with 100 challenging levels. Control your paddle,
 *(Here you can add screenshots of the game)*
 
 **Main Menu:**
-<img width="454" height="723" alt="image" src="https://github.com/user-attachments/assets/8e1d3933-1d59-4599-b60a-7f34367d7b6a" />
-
+`[Screenshot of the main menu]`
 
 **Level Select:**
-<img width="376" height="758" alt="image" src="https://github.com/user-attachments/assets/47da8a3d-5563-4984-811a-40fcb0f42002" />
-
+`[Screenshot of the level select screen]`
 
 **Gameplay:**
-<img width="451" height="699" alt="image" src="https://github.com/user-attachments/assets/5de1f2f2-17a5-40d4-a98e-2f1be9025f73" />
-
+`[Screenshot of the game in action]`
 
 ## Features
 
@@ -42,6 +39,41 @@ The goal is to score points by making the ball pass your opponent's baseline.
 -   A game is won by reaching 11 points.
 -   You must win by a margin of at least 2 points.
 -   The loser of a point serves the next ball.
+
+## Build & Deployment
+
+This project is built using [Vite](https://vitejs.dev/) for a fast development experience and an optimized production build.
+
+### Prerequisites
+-   [Node.js](https://nodejs.org/) (version 18.x or higher is recommended)
+-   [npm](https://www.npmjs.com/) (or [yarn](https://yarnpkg.com/)/[pnpm](https://pnpm.io/))
+
+### Local Development
+1.  **Clone the repository** and navigate to the project directory.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+4.  Open your browser and navigate to the local address provided by Vite (e.g., `http://localhost:5173`). The server supports Hot Module Replacement (HMR) for a great development experience.
+
+### Building for Production
+1.  **Run the build command:**
+    ```bash
+    npm run build
+    ```
+2.  This command will compile the application and output the static files into a `publish` directory in the project root.
+
+### Deployment
+You can deploy the contents of the `publish` directory to any static web hosting service.
+
+1.  After running `npm run build`, take the contents of the generated `publish` folder.
+2.  Upload these files to your hosting provider (e.g., GitHub Pages, Vercel, Netlify, AWS S3).
+3.  That's it! Your game will be live.
+
 
 ## Author
 
