@@ -1,4 +1,4 @@
-# Cosmic Pong
+<img width="451" height="699" alt="image" src="https://github.com/user-attachments/assets/9cf2a9cc-66a0-4ea0-9141-80acbc56b202" /># Cosmic Pong
 
 A futuristic table tennis game with 100 challenging levels. Control your paddle, outsmart the AI opponent, and navigate through unique tables with various obstacles. Unlock levels, achieve high scores, and become the ultimate Cosmic Pong champion.
 
@@ -7,13 +7,16 @@ A futuristic table tennis game with 100 challenging levels. Control your paddle,
 *(Here you can add screenshots of the game)*
 
 **Main Menu:**
-`[Screenshot of the main menu]`
+<img width="454" height="723" alt="image" src="https://github.com/user-attachments/assets/8e1d3933-1d59-4599-b60a-7f34367d7b6a" />
+
 
 **Level Select:**
-`[Screenshot of the level select screen]`
+<img width="376" height="758" alt="image" src="https://github.com/user-attachments/assets/47da8a3d-5563-4984-811a-40fcb0f42002" />
+
 
 **Gameplay:**
-`[Screenshot of the game in action]`
+<img width="451" height="699" alt="image" src="https://github.com/user-attachments/assets/5de1f2f2-17a5-40d4-a98e-2f1be9025f73" />
+
 
 ## Features
 
